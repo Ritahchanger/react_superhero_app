@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Maincontent from "./Mainsection/Maincontent";
+import Header from "./components/Header";
 function App() {
-  const link = "https://www.superheroapi.com/api.php/1256666801897095/search/batman";
   return (
     <div className="App">
-     
+      <Header/>
+      <Maincontent/>
     </div>
   );
 }
